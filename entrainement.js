@@ -18,6 +18,7 @@ puppeteer.launch({headless : false, args : ["--start-maximized"]})
 		await page.type("#mainContent > div._3id11 > div._1o09v > div > div > div:nth-child(2) > div._1JWLq > div > div > div > input[type=text]", "voiture")
 		//Clique sur le bouton rechercher"
 		await page.click("#mainContent > div._3id11 > div._1o09v > div > div > div._3-Pua > div > button")
+		print("LOL")
 		
 		//await page.waitFor(1000)
 		
